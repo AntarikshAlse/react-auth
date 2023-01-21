@@ -28,6 +28,7 @@ function App() {
                       to={"/login"}
                       onClick={() => {
                         localStorage.removeItem("user");
+                        setAuth(false);
                       }}
                     >
                       Logout
